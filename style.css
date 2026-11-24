@@ -1,0 +1,147 @@
+body{
+  font-family:arial;
+  background-color:white;
+}
+
+header{
+  background-color:#97C06E;
+  text-align:center;
+  font-size:2vw;
+  border:2px solid black;
+  margin:10px;
+  padding:30px;
+  border-radius:20px;
+}
+
+a{
+  color:black;
+}
+
+main{
+  background-color:#97C06E;
+  border:2px solid black;
+  margin:10px;
+  padding:30px;
+  border-radius:20px;
+}
+
+section#our{
+  background-color:white;
+  border:2px solid black;
+  padding:30px;
+  margin:10px;
+  border-radius:20px;
+  display:flex;
+}
+
+section#our div{
+  margin:10px;
+  font-size:1.5vw;
+}
+
+section#our h2{
+  width:60%;
+}
+
+section#our p{
+  width:60%;
+}
+
+section#our img{
+  width:40%;
+}
+
+
+
+section#menu{
+  background-color:white;
+  border:2px solid black;
+  margin:10px;
+  padding:30px;
+  border-radius:20px;
+}
+
+section#menu h2{
+  font-size:2vw;
+}
+
+
+.menu-list{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.dish {
+    width: 28%;
+    background-color: #F4A12D;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+  	border-radius: 15px;
+}
+
+div.menu-list article h3{
+  font-size:1.7vw;
+}
+
+div.menu-list article p{
+  font-size:1.2vw;
+}
+
+.rev{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+section#rev{
+  background-color:white;
+  border:2px solid black;
+  margin:10px;
+  padding:30px;
+  border-radius:20px;
+}
+
+.rev{
+    width:80%;
+    background-color:#97C06E;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+  	border-radius: 15px;
+}
+
+
+.rev h3{
+  font-size:1.7vw;
+}
+
+.rev p{
+  font-size:1.3vw;
+}
+
+b{
+  font-size:3vw;
+  text-shadow:
+    -1px -1px 0 #000000,
+     1px -1px 0 #000000,
+    -1px  1px 0 #000000,
+     1px  1px 0 #000000;
+}
+
+.good{
+  color:#16b013;
+}
+
+.bad{
+  color:red;
+}
+
+footer{
+  background-color:#97C06E;
+  text-align:center;
+  font-size:1.5vw;
+  border:2px solid black;
+  margin:10px;
+  padding:30px;
+  border-radius:20px;
+}
